@@ -1,0 +1,15 @@
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/bin/Debug/net7.0/FuerzaBrutaHilos
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/bin/Debug/net7.0/FuerzaBrutaHilos.deps.json
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/bin/Debug/net7.0/FuerzaBrutaHilos.runtimeconfig.json
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/bin/Debug/net7.0/FuerzaBrutaHilos.dll
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/bin/Debug/net7.0/FuerzaBrutaHilos.pdb
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/FuerzaBrutaHilos.csproj.AssemblyReference.cache
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/FuerzaBrutaHilos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/FuerzaBrutaHilos.AssemblyInfoInputs.cache
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/FuerzaBrutaHilos.AssemblyInfo.cs
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/FuerzaBrutaHilos.csproj.CoreCompileInputs.cache
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/FuerzaBrutaHilos.dll
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/refint/FuerzaBrutaHilos.dll
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/FuerzaBrutaHilos.pdb
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/FuerzaBrutaHilos.genruntimeconfig.cache
+/Users/agustrodmar/RiderProjects/FuerzaBrutaHilos/FuerzaBrutaHilos/obj/Debug/net7.0/ref/FuerzaBrutaHilos.dll
