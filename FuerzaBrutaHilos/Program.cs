@@ -53,7 +53,8 @@ class RompeClaves
     public void Crack()
     {
         // Creo un SemaphoreSlim con un máximo de hilos
-        SemaphoreSlim semaphore = new SemaphoreSlim(maxHilos);
+        
+        SemaphoreSlim semaforo = new SemaphoreSlim(maxHilos);
 
         // Inicio el cronómetro
         Stopwatch cronometroTotal = new Stopwatch();
@@ -67,7 +68,7 @@ class RompeClaves
                 while ((line = sr.ReadLine()!) != null)
                 {
                     // El semáforo espera hasta que haya un hilo disponible
-                    semaphore.Wait();
+                    semaforo.Wait();
 
                     ThreadPool.QueueUserWorkItem(_ =>
                     {
@@ -75,7 +76,7 @@ class RompeClaves
                         {
                             if (contrasenaEncontrada)  // Añade esta línea
                             {
-                                semaphore.Release();
+                                semaforo.Release();
                                 return;
                             }
 
@@ -103,7 +104,7 @@ class RompeClaves
                         finally
                         {
                             // Libero el hilo cuando se haya terminado
-                            semaphore.Release();
+                            semaforo.Release();
                         }
                     });
                 }
