@@ -22,6 +22,10 @@ class Program
     }
 }
 
+/**
+ * Clase que se encarga de romper las claves.
+ * 
+ */    
 class RompeClaves
 {
     private string rutaArchivo;
@@ -30,7 +34,7 @@ class RompeClaves
     private bool contrasenaEncontrada = false;  // creo este booleano para que si un hilo encuentra la contraseña, se pare la búsqueda.
 
     /**
-     * Clase que se encarga de romper las claves.
+     * public RompeClaves
      * 
      * @property rutaArchivo La ruta al archivo que contiene las contraseñas.
      * @property miContrasena La contraseña que busco
