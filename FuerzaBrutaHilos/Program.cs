@@ -14,7 +14,7 @@ class Program
      */
     static void Main()
     {
-        // Creo objeto de la clase RompeClaves, indico 4 hilos.
+        // Creo objeto de la clase RompeClaves, indico el número de hilos.
         RompeClaves elRuso = new RompeClaves("./2151220-passwords.txt", "cQw49yt5ZvVnO+lWVnrVS9Tr7n0HXnFQUiujoIkhu6M=", 16);
 
         // Iniciar el proceso de cracking
@@ -27,13 +27,13 @@ class RompeClaves
     private string rutaArchivo;
     private string miContrasena;
     private int maxHilos;
-    private bool contrasenaEncontrada = false;  // Añade esta línea
+    private bool contrasenaEncontrada = false;  // creo este booleano para que si un hilo encuentra la contraseña, se pare la búsqueda.
 
     /**
      * Clase que se encarga de romper las claves.
      * 
      * @property rutaArchivo La ruta al archivo que contiene las contraseñas.
-     * @property miContrasena La contraseña que estamos buscando.
+     * @property miContrasena La contraseña que busco
      * @property maxHilos El número máximo de hilos que se pueden usar.
      */
     public RompeClaves(string rutaArchivo, string miContrasena, int maxHilos)
@@ -48,10 +48,10 @@ class RompeClaves
      */
     public void Crack()
     {
-        // Crear un SemaphoreSlim con un máximo de hilos
+        // Creo un SemaphoreSlim con un máximo de hilos
         SemaphoreSlim semaphore = new SemaphoreSlim(maxHilos);
 
-        // Iniciar el cronómetro
+        // Inicio el cronómetro
         Stopwatch cronometroTotal = new Stopwatch();
         cronometroTotal.Start();
 
@@ -83,7 +83,7 @@ class RompeClaves
                             if (hashedPassword == miContrasena)
                             {
                                 Console.WriteLine("Contraseña desencriptada: {0}", line);
-                                contrasenaEncontrada = true;  // Añade esta línea
+                                contrasenaEncontrada = true;  // El booleano se vuelve true, y los hilos paran la búsqueda.
                             }
 
                             cronometro.Stop();
