@@ -74,7 +74,7 @@ class RompeClaves
                     {
                         try
                         {
-                            if (contrasenaEncontrada)  // Añade esta línea
+                            if (contrasenaEncontrada) 
                             {
                                 semaforo.Release();
                                 return;
